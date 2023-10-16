@@ -11,6 +11,7 @@ import tensorflow as tf
 # Load dataset.
 dftrain = pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vRhuroKnCWjAHU_BxSIi8Fca68wejgeNtv73LwMCocROjDW8kLC_E4gFQjrPvlqs08ylnouLU-tbSec/pub?output=csv') # training data
 y_train = dftrain.pop('seguro')
+#PUXAR INFORMAÇÕES DO MYSQL
 
 #o dataset vai mudar quando eu fizer a rota de treinamento 
 
